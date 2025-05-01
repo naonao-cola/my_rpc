@@ -1,0 +1,7 @@
+﻿repos:
+  - repo: https://github.moeyy.xyz/https://github.com/pocc/pre-commit-hooks
+    rev: master
+    hooks:
+      - id: clang-format
+        args: [--style=file]
+    
